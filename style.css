@@ -1,0 +1,66 @@
+h1 
+{
+	color:IndianRed;
+}
+h2
+{
+	color: ;
+}
+body
+{
+	color:#102b59;
+	background-color:white;
+	margin:0;
+	background-color: black;
+	background: url(image7.jpg) no-repeat center center fixed; 
+  	-webkit-background-size: cover;
+  	-moz-background-size: cover;
+  	-o-background-size: cover;
+  	background-size: cover;
+ }
+#Centre
+{
+		width: 1000px;
+		margin: 200 auto;
+		text-align:left;
+		align-content:center;
+}
+
+
+
+ul li
+{
+	list-style-type: none;
+}
+ol li
+{	
+	text-align: left;
+	list-style-type: none;
+}
+
+ul {
+ padding:0;
+ margin:0;
+ list-style-type:none;
+ }
+li {
+ margin-left:2px;
+ float:left; /*pour IE*/
+ }
+ul li a {
+ display:block;
+ float:left;   
+ width:1000px;
+ background-color:#e9f5a9;
+ color:black;
+ text-decoration:none;
+ text-align:center;
+ padding:10px;
+ border:5px solid;
+ /*pour avoir un effet "outset" avec IE :*/
+ border-color:#DCDCDC #696969 #696969 #DCDCDC;
+ }
+ul li a:hover {
+ background-color:#D3D3D3;
+ border-color:#696969 #DCDCDC #DCDCDC #696969;
+ } 
